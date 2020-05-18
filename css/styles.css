@@ -1,51 +1,74 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
   
-  body {
+body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-  }
+    background-image: url("gamepad.png");
+    background-position: center;
+    background-color: rgb(0, 110, 255);
+}
   
-  /* Style the top navigation bar */
-  .topnav {
+h2 {
+    margin-top: 2px;
+    font-size: 38px;
+    font-style: italic;
+    font-family: 'Algerian';
+}
+
+.allButFooter {
+    min-height: calc(100vh - 40px);
+}
+
+/* Style the top navigation bar */
+.topnav {
     overflow: hidden;
     background-color: #333;
-  }
+}
   
-  /* Style the topnav links */
-  .topnav a {
+/* Style the topnav links */
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
-  /* Change color on hover */
-  .topnav a:hover {
+/* Change color on hover */
+.topnav a:hover {
     background-color: #ddd;
     color: black;
     border-radius: 5px;
-  }
+}
   
-  /* Style the content */
-  .content {
-    background-color: #ddd;
+/* Style the content */
+.content {
     padding: 10px;
-  }
-  
-  /* Style the footer */
-  .footer {
+}
+
+.text{
+    display: block;
+    padding: 18px;
+    background-color: #FFF;
+    margin: 60px;
+    margin-right: 1150px;
+    border-radius: 25px;
+    border-style: solid;
+}
+
+.content a:hover {
+    color: blue;
+    border: 2px;
+    font-size: 20px;
+}
+
+/* Style the footer */
+.footer {
     background-color: #333;
     padding: 10px;
     color: #f2f2f2;
-  }
-
-  .test a:hover {
-    color: blue;
-    border: 2px;
-    font-size: 175px;
-  }
+}
