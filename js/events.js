@@ -1,8 +1,14 @@
+document.getElementById('btn').style.visibility = 'hidden';
+
 function clicked(){
     let name = document.getElementById('name').value;
-    if (name == 'Enter your name!')
-        window.alert('Please enter your name!')
+        window.alert(name + ', you clicked the button')  
+}
+
+function showButton(){
+    let input = document.getElementById('name').value;
+    if(input != '')
+        document.getElementById('btn').style.visibility = 'visible';
     else
-        window.alert(name + ', you clicked the button')
-    
+        document.getElementById('btn').style.visibility = 'hidden';
 }
